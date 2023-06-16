@@ -7,8 +7,8 @@ const About =()=>{
 
     return(
         <>
-           <Navigation/>
-           <Footer/>
+          <h1>Here Muhammad Anas Raza,
+          Front End Web Developer</h1>
         </>
     )
 }

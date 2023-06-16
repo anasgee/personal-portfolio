@@ -6,6 +6,8 @@ import Cv from "./Cv";
 import About from "./About";
 import Services from './Services';
 import Error from './Error';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
 
 
@@ -16,16 +18,17 @@ const App = () => {
     return (
         <>
         
+            <Navigation/>
             <Routes>
-                <Route path='/home' element={<Home />} />
-                <Route path='/reactPortfolio' element={<Home />} />
                 <Route path='/' element={<Home />} />
+                <Route path='/personalPortfolio' element={<Home />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/cv' element={<Cv />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/services' element={<Services />} />
                 <Route path='/*' element={<Error />} />
             </Routes>
+                <Footer/>
 
 
 

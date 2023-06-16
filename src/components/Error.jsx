@@ -7,14 +7,12 @@ const Error =()=>{
 
     return(
         <>
-            <Navigation/>
-
             <h1>
                
                   The Page You Are Reaching is Broken
             </h1>
 
-            <Footer/>
+   
         </>
     )
 }

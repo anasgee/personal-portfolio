@@ -8,13 +8,10 @@ const Home = () => {
 
     return (
         <>
-            <Navigation />
-        
         
             <HeroSection/>
            
                 
-            <Footer/>
         </>
     )
 

@@ -1,6 +1,6 @@
 {
   "name": "personal-portfolio",
-   "homepage": "https://anasgee.github.io/personalPortfolio",
+  "homepage": "https://anasgee.github.io/personalPortfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -45,4 +45,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
+
 }

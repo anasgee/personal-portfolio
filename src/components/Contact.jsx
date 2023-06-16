@@ -31,7 +31,7 @@ const Contact = ()=>{
     
    return(
     <>
-        <Navigation/>
+   
             <form>
 
         <div className='form_div'>
@@ -52,7 +52,7 @@ const Contact = ()=>{
         </div>
             </form>
 
-         <Footer/>
+
     </>
    )
 

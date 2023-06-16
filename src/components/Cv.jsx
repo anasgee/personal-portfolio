@@ -8,13 +8,12 @@ const Cv = ()=>{
     
    return(
     <>
-    <Navigation/>
-
+ 
 
     <div className='cv'>
        <NavLink to={require("./pdf/anascv.pdf")} ><button>Click To Download</button></NavLink>
     </div>
-    <Footer/>
+
         
     </>
    )

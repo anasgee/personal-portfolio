@@ -8,7 +8,6 @@ const Services = () => {
 
     return (
         <>
-            <Navigation />
             <h1 className="services_heading">Services</h1>
             <div>
 
@@ -27,7 +26,7 @@ const Services = () => {
             </div>
 
          <div className="footer_services">
-            <Footer/>
+    
          </div>
     
        
